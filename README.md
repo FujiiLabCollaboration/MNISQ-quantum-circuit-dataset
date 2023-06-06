@@ -1,4 +1,7 @@
 # work in progress
+quantum circuit dataset - this repository will be soon completed
+
+There is already the dataset and qml experiments, some guide can be found in doc/sources
 
 # MNISQ
 
