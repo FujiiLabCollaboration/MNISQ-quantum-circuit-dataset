@@ -3,14 +3,14 @@ quantum circuit dataset - this repository will be soon completed
 
 There is already the dataset and qml experiments, some guide can be found in doc/sources
 
-# MNISQ
+# MNISQ-quantum-circuit-dataset
 
 This library provides machine learning datasets as a Qulacs's QuantumCircuit instance.
 
 ## How To Install
 
 ```
-pip install git+https://github.com/FujiiLabCollaboration/MNISQ.git
+pip install git+https://github.com/FujiiLabCollaboration/MNISQ-quantum-circuit-dataset.git
 ```
 
 ## Directory structure
