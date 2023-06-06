@@ -1,11 +1,13 @@
-# qulacs_dataset
+# work in progress
+
+# MNISQ
 
 This library provides machine learning datasets as a Qulacs's QuantumCircuit instance.
 
 ## How To Install
 
 ```
-pip install git+https://github.com/FujiiLabCollaboration/quantum_MNIST.git
+pip install git+https://github.com/FujiiLabCollaboration/MNISQ.git
 ```
 
 ## Directory structure
