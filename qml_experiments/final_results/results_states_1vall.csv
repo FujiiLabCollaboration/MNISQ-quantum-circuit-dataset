@@ -1,0 +1,10 @@
+dataset,accuracy
+mnist80,0.9784
+mnist90,0.9784
+mnist95,0.9784
+fashion80,0.8724
+fashion90,0.8724
+fashion95,0.8724
+Kaz80,0.9062
+Kaz90,0.9062
+Kaz95,0.9062
