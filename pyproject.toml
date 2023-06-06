@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "qulacs_dataset"
+version = "0.1.0"
+description = ""
+authors = ["Qulacs-Osaka <qulacs.osaka@gmail.com>"]
+license = "MIT"
+readme = "./README.md"
+repository = "https://github.com/Qulacs-Osaka/python-project-template"
+homepage = "https://github.com/Qulacs-Osaka/python-project-template"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+numpy = "^1.0.0"
+matplotlib = "^3.6.2"
+requests = "^2.28.1"
+types-requests = "^2.28.11.5"
+tqdm = "^4.64.1"
+typer = {extras = ["all"], version = "^0.7.0"}
+scikit-learn = "^1.2.0"
+qulacs = "^0.5.4"
+opencv-python = "^4.7.0.72"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.0"
+black = "^22.3.0"
+flake8 = "^4.0.1"
+mypy = "^0.942"
+isort = "^5.10.1"
+Sphinx = "^4.3.0"
+sphinx-book-theme = "^0.3.0"
+ipykernel = "^6.5.0"
+myst-nb = "^0.16.0"
+pytest-cov = "^3.0.0"
+
+[tool.isort]
+default_section = "THIRDPARTY"
+ensure_newline_before_comments = true
+force_grid_wrap = 0
+force_single_line = false
+include_trailing_comma = true
+multi_line_output = 3
+use_parentheses = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
