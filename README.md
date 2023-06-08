@@ -1,5 +1,7 @@
-# work in progress
+# PAGE UNDER CONSTRUCTION
 quantum circuit dataset - this repository will be soon completed
+
+===> dataset is already accessible!
 
 There is already the dataset and qml experiments, some guide can be found in doc/sources
 
