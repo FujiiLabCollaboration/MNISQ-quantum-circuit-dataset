@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "qulacs_dataset"
+name = "MNISQ-quantum-circuit-dataset"
 version = "0.1.0"
 description = ""
-authors = ["Qulacs-Osaka <qulacs.osaka@gmail.com>"]
+authors = ["MNISQ <mnisq.osaka@gmail.com>"]
 license = "MIT"
 readme = "./README.md"
-repository = "https://github.com/Qulacs-Osaka/python-project-template"
-homepage = "https://github.com/Qulacs-Osaka/python-project-template"
+repository = "https://github.com/FujiiLabCollaboration/MNISQ-quantum-circuit-dataset"
+homepage = "https://github.com/FujiiLabCollaboration/MNISQ-quantum-circuit-dataset"
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.11"
