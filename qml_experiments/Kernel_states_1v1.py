@@ -16,7 +16,7 @@ dataset_to_save = pd.DataFrame(columns=["dataset", "accuracy"])
 
 import sys
 sys.path.append('/home/leonardo/Research/quantum_MNIST')
-import qulacs_dataset as qs
+import mnisq as qs
 
 
 from tqdm import tqdm

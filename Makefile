@@ -5,7 +5,7 @@ IMPORT_SORTER := poetry run isort
 TYPE_CHECKER := poetry run mypy
 SPHINX_APIDOC := poetry run sphinx-apidoc
 
-PROJECT_DIR := qulacs_dataset
+PROJECT_DIR := mnisq
 CHECK_DIR := $(PROJECT_DIR) tests
 COVERAGE_OPT := --cov $(PROJECT_DIR) --cov-branch
 PORT := 8000

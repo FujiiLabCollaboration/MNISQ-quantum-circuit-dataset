@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "MNISQ-quantum-circuit-dataset"
+name = "mnisq"
 version = "0.1.0"
 description = ""
 authors = ["MNISQ <mnisq.osaka@gmail.com>"]

@@ -3,9 +3,9 @@ import sys
 
 import typer
 
-from qulacs_dataset.internal.dataset import save_raw_dataset
-from qulacs_dataset.internal.generator.mnist_like.downloader import mnist_files
-from qulacs_dataset.internal.generator.mnist_like.Source import (
+from mnisq.internal.dataset import save_raw_dataset
+from mnisq.internal.generator.mnist_like.downloader import mnist_files
+from mnisq.internal.generator.mnist_like.Source import (
     generate_dataset,
 )
 

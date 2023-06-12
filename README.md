@@ -17,5 +17,5 @@ pip install git+https://github.com/FujiiLabCollaboration/MNISQ-quantum-circuit-d
 
 ## Directory structure
 - `doc/source/notebooks` provides sample usage of this library.
-- `qulacs_dataset` and `tests` contains python code.
+- `mnisq` and `tests` contains python code.
 - `generator_scripts` contains scripts used to generate datasets.

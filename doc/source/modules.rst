@@ -1,7 +1,7 @@
-qulacs_dataset
+mnisq
 ============
 
 .. toctree::
    :maxdepth: 4
 
-   qulacs_dataset
+   mnisq
