@@ -11,6 +11,12 @@ This library provides machine learning datasets as a Qulacs's QuantumCircuit ins
 
 ## How To Install
 
+### pypi
+```
+pip install mnisq
+```
+
+### source install
 ```
 pip install git+https://github.com/FujiiLabCollaboration/MNISQ-quantum-circuit-dataset.git
 ```
