@@ -14,7 +14,7 @@ def env_initialize(dep: List[str]) -> List[str]:
     initialize_python: List[str] = [
         qsub(
             "initialize_python",
-            "singularity run mnist.sif g++ ../qulacs_dataset/internal/generator/aqce/AQCE.cpp -o ./AQCE.out -lcppsim_static -lcsim_static -lvqcsim_static -fopenmp && singularity run mnist.sif poetry install",
+            "singularity run mnist.sif g++ ../mnisq/internal/generator/aqce/AQCE.cpp -o ./AQCE.out -lcppsim_static -lcsim_static -lvqcsim_static -fopenmp && singularity run mnist.sif poetry install",
             1,
             96,
             dep,

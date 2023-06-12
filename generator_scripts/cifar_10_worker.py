@@ -3,8 +3,8 @@ import sys
 
 import typer
 
-from qulacs_dataset.internal.dataset import save_raw_dataset
-from qulacs_dataset.internal.generator.cifar_10.main import (
+from mnisq.internal.dataset import save_raw_dataset
+from mnisq.internal.generator.cifar_10.main import (
     generate_test_dataset,
     generate_train_dataset,
 )

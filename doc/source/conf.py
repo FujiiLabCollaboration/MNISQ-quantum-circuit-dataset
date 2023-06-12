@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.abspath("../.."))
 
 # -- Project information -----------------------------------------------------
 
-project = "qulacs_dataset"
+project = "mnisq"
 copyright = "2021, Qulacs-Osaka"
 author = "Qulacs-Osaka"
 

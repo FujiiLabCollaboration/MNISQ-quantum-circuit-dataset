@@ -14,7 +14,7 @@
 	},
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
-		"python.defaultInterpreterPath": "/workspace/qulacs_dataset/.venv/bin/python",
+		"python.defaultInterpreterPath": "/workspace/mnisq/.venv/bin/python",
 		"python.linting.enabled": true,
 		"python.linting.pylintEnabled": false,
 		"python.linting.flake8Enabled": true,
@@ -32,8 +32,8 @@
 	],
 	// Required by `mounts`.
 	// c.f. https://code.visualstudio.com/remote/advancedcontainers/improve-performance#_use-a-targeted-named-volume
-	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace/qulacs_dataset,type=bind,consistency=cached",
-	"workspaceFolder": "/workspace/qulacs_dataset",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace/mnisq,type=bind,consistency=cached",
+	"workspaceFolder": "/workspace/mnisq",
 	"mounts": [
 		"source=${localWorkspaceFolderBasename}-venv,target=${containerWorkspaceFolder}/.venv,type=volume"
 	],

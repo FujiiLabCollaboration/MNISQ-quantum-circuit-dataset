@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "qulacs_dataset"
+name = "mnisq"
 version = "0.1.0"
 description = ""
 authors = ["Qulacs-Osaka <qulacs.osaka@gmail.com>"]

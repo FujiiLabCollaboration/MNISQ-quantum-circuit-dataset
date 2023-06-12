@@ -132,9 +132,11 @@ dmypy.json
 .vscode/*
 !.vscode/tasks.json
 
-qulacs_dataset_cache
+mnisq_cache
 **/downloader/*.gz
 **/downloader/*.pkl
 generator_scripts/workspace/**
 generator_scripts/outcome/**
 **/cache/**
+
+.pypirc

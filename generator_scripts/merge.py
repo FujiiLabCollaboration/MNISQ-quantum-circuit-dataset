@@ -2,7 +2,7 @@ import os
 import subprocess
 import sys
 
-from qulacs_dataset.internal.dataset import (
+from mnisq.internal.dataset import (
     load_raw_dataset,
     merge_dataset,
     save_raw_dataset,
