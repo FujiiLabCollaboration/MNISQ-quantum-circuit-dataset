@@ -31,7 +31,7 @@ This project was developed by:
 - Koki Aoyama(@kotamanegi)
 - Hayata Morisaki
 - Toshio Mori(@forest1040)
-- Leonardo Placidi(Gruntrexpewrus)
+- Leonardo Placidi(@Gruntrexpewrus)
 - Ryuichiro Hataya
 - Kosuke Mitarai
 - Keisuke Fujii
