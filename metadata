@@ -1,0 +1,79 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "MNISQ",
+  "description": "MNISQ dataset is a large-scale quantum circuit dataset for machine learning on/for quantum computers in the NISQ era. Details are available in the following URL: https://github.com/FujiiLabCollaboration/MNISQ-quantum-circuit-dataset",
+  "version": "1.0.0",
+  "url": "https://github.com/FujiiLabCollaboration/MNISQ-quantum-circuit-dataset",
+  "keywords": [
+    "Quantum Circuit",
+    "Quantum Machine Learning",
+    "Classical Machine Learning"
+  ],
+  "license": "https://creativecommons.org/licenses/by-sa/4.0",
+  "isAccessibleForFree": true,
+  "creator": [
+    {
+      "@type": "Person",
+      "sameAs": "https://orcid.org/0000-0001-7693-7631",
+      "name": "Leonardo Placidi"
+    },
+    {
+      "@type": "Person",
+      "sameAs": "https://orcid.org/0000-0001-8597-8072",
+      "name": "Ryuichiro Hataya"
+    },
+    {
+      "@type": "Person",
+      "name": "Toshio Mori"
+    },
+    {
+      "@type": "Person",
+      "sameAs": "https://orcid.org/0000-0001-9137-3977",
+      "name": "Koki Aoyama"
+    },
+    {
+      "@type": "Person",
+      "name": "Hayata Morisaki"
+    },
+    {
+      "@type": "Person",
+      "sameAs": "https://orcid.org/0000-0002-9056-316X",
+      "name": "Kosuke Mitarai"
+    },
+    {
+      "@type": "Person",
+      "sameAs": "https://orcid.org/0000-0002-0602-157X",
+      "name": "Keisuke Fujii"
+    },
+    {
+      "@type": "Organization",
+      "url": "https://ror.org/035t8zc32",
+      "name": "Osaka University"
+    },
+    {
+      "@type": "Organization",
+      "url": "https://ror.org/01sjwvz98",
+      "name": "RIKEN"
+    }
+  ],
+  "funder": [
+    {
+      "@type": "Organization",
+      "sameAs": "https://ror.org/048rj2z13",
+      "name": "MEXT Quantum Leap Flagship Program (MEXT Q-LEAP) Grant No.JPMXS0118067394 and JPMXS0120319794"
+    },
+    {
+      "@type": "Organization",
+      "sameAs": "https://ror.org/00097mb19",
+      "name": "JST COI-NEXT Grant No.JPMJPF2014"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "Python Library",
+      "contentUrl": "https://github.com/FujiiLabCollaboration/MNISQ-quantum-circuit-dataset"
+    }
+  ]
+}
