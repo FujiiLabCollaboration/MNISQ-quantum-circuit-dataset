@@ -28,5 +28,6 @@ pip install git+https://github.com/FujiiLabCollaboration/MNISQ-quantum-circuit-d
 
 # Contributor
 This project was developed by:
+- Toshio Mori (@forest1040)
 - Koki Aoyama(@kotamanegi)
 - Hayata Morisaki
