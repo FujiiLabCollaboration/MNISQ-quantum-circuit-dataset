@@ -8,4 +8,5 @@ from mnisq.mnist.loader import (
     load_mnist_test_f80,
     load_mnist_test_f90,
     load_mnist_test_f95,
+    load_mnist_base_test_f80,
 )

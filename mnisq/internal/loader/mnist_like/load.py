@@ -1,12 +1,14 @@
 from typing import Any, Dict, List
 
 from qulacs import QuantumState
-from qulacs.converter import convert_QASM_to_qulacs_circuit
+#from qulacs.converter import convert_QASM_to_qulacs_circuit
+from mnisq.internal.generator.mnist_like.qasm_converter import convert_QASM_to_qulacs_circuit
 
 from mnisq.internal.dataset import load_raw_dataset_from_url
 
 
-def qasm_formatter(qasm: bytes) -> List[str]:
+def qasm_formatter(qasm: bytes, index: int) -> List[str]:
+    # print("idx:", index)
     data = qasm.decode().split("\n")
     for itr in range(len(data)):
         if len(data[itr]) != 0 and data[itr][-1] != ";":
@@ -19,7 +21,7 @@ def load_mnist_like_dataset(download_URL: str) -> Dict[str, Any]:
     raw_items = load_raw_dataset_from_url(download_URL)
     items["qasm"] = [x.decode() for x in raw_items["qasm"]]
     items["circuit"] = [
-        convert_QASM_to_qulacs_circuit(qasm_formatter(x)) for x in raw_items["qasm"]
+        convert_QASM_to_qulacs_circuit(qasm_formatter(x, i)) for i, x in enumerate(raw_items["qasm"])
     ]
     items["label"] = [int(x.decode()) for x in raw_items["label"]]
     items["fidelity"] = [float(x.decode()) for x in raw_items["fidelity"]]

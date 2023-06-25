@@ -198,32 +198,27 @@ def convert_QASM_to_qulacs_circuit(
             ary = matchobj.groups()
             cir.add_Tdag_gate(mapping[int(ary[0])])
         elif instr[0:2] == "rx":
-            matchobj = re.match(
-                rf"rx\(({GENERAL_NUMBER_PATTERN})\)q\[(\d+)\];", instr)
+            matchobj = re.match(rf"rx\(({GENERAL_NUMBER_PATTERN})\)q\[(\d+)\];", instr)
             assert matchobj is not None
             ary = matchobj.groups()
             cir.add_RX_gate(mapping[int(ary[1])], -float(ary[0]))
         elif instr[0:2] == "ry":
-            matchobj = re.match(
-                rf"ry\(({GENERAL_NUMBER_PATTERN})\)q\[(\d+)\];", instr)
+            matchobj = re.match(rf"ry\(({GENERAL_NUMBER_PATTERN})\)q\[(\d+)\];", instr)
             assert matchobj is not None
             ary = matchobj.groups()
             cir.add_RY_gate(mapping[int(ary[1])], -float(ary[0]))
         elif instr[0:2] == "rz":
-            matchobj = re.match(
-                rf"rz\(({GENERAL_NUMBER_PATTERN})\)q\[(\d+)\];", instr)
+            matchobj = re.match(rf"rz\(({GENERAL_NUMBER_PATTERN})\)q\[(\d+)\];", instr)
             assert matchobj is not None
             ary = matchobj.groups()
             cir.add_RZ_gate(mapping[int(ary[1])], -float(ary[0]))
         elif instr[0:1] == "p":
-            matchobj = re.match(
-                rf"p\({GENERAL_NUMBER_PATTERN}\)q\[(\d+)\];", instr)
+            matchobj = re.match(rf"p\({GENERAL_NUMBER_PATTERN}\)q\[(\d+)\];", instr)
             assert matchobj is not None
             ary = matchobj.groups()
             cir.add_U1_gate(mapping[int(ary[1])], float(ary[0]))
         elif instr[0:2] == "u1":
-            matchobj = re.match(
-                rf"u1\(({GENERAL_NUMBER_PATTERN})\)q[(\d+)];", instr)
+            matchobj = re.match(rf"u1\(({GENERAL_NUMBER_PATTERN})\)q[(\d+)];", instr)
             assert matchobj is not None
             ary = matchobj.groups()
             cir.add_U1_gate(mapping[int(ary[1])], float(ary[0]))
@@ -243,14 +238,10 @@ def convert_QASM_to_qulacs_circuit(
                 + rf"({GENERAL_NUMBER_PATTERN})\)q\[(\d+)\];",
                 instr,
             )
-            #print("u3:", instr)
-            if matchobj is None:
-                print("matchobj is None:", instr)
             assert matchobj is not None
             ary = matchobj.groups()
             cir.add_U3_gate(
-                mapping[int(ary[3])], float(
-                    ary[0]), float(ary[1]), float(ary[2])
+                mapping[int(ary[3])], float(ary[0]), float(ary[1]), float(ary[2])
             )
         elif instr[0:1] == "u":
             matchobj = re.match(
@@ -259,14 +250,10 @@ def convert_QASM_to_qulacs_circuit(
                 + rf"({GENERAL_NUMBER_PATTERN})\)q\[(\d+)\];",
                 instr,
             )
-            #print("u:", instr)
-            if matchobj is None:
-                print("matchobj is None:", instr)
             assert matchobj is not None
             ary = matchobj.groups()
             cir.add_U3_gate(
-                mapping[int(ary[3])], float(
-                    ary[0]), float(ary[1]), float(ary[2])
+                mapping[int(ary[3])], float(ary[0]), float(ary[1]), float(ary[2])
             )
         elif instr[0:3] == "sxq":
             matchobj = re.match(r"sxq\[(\d+)\];", instr)
@@ -290,8 +277,7 @@ def convert_QASM_to_qulacs_circuit(
             bas = 2
             for i in range(2**target_qubit_count):
                 for j in range(2**target_qubit_count):
-                    gate_mat[i][j] = float(deary[bas]) + \
-                        float(deary[bas + 1]) * 1.0j
+                    gate_mat[i][j] = float(deary[bas]) + float(deary[bas + 1]) * 1.0j
                     bas += 2
             control_values = []
             for i in range(control_qubit_count):
@@ -323,6 +309,5 @@ def convert_QASM_to_qulacs_circuit(
             # related to file format, not for read.
             pass
         else:
-            # raise RuntimeError(f"unknown line: {instr}")
-            print(f"unknown line: {instr}")
+            raise RuntimeError(f"unknown line: {instr}")
     return cir
