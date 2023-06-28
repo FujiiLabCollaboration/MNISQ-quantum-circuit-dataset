@@ -2,7 +2,7 @@
 quantum circuit dataset - this repository will be soon completed
 
 ===> dataset is already accessible!
-==> we just made the dataset executable from qiskit! See `doc/source/notebooks/qiskit_quickstart.ipynb`
+==> we just made the dataset executable from qiskit! See [doc/source/notebooks/qiskit_quickstart.ipynb](doc/source/notebooks/qiskit_quickstart.ipynb)
 
 There is already the dataset and qml experiments, some guide can be found in doc/sources
 
