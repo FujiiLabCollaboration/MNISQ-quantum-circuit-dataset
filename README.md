@@ -1,12 +1,15 @@
-# PAGE UNDER CONSTRUCTION
-quantum circuit dataset - this repository will be soon completed
+# MNISQ: A Large-Scale Quantum Circuit Dataset for Machine Learning on/for Quantum Computers in the NISQ era
+this repository will be soon completed, we are refining the last details!
 
 ===> dataset is already accessible!
+
+
 ==> we just made the dataset executable from qiskit! See [doc/source/notebooks/qiskit_quickstart.ipynb](doc/source/notebooks/qiskit_quickstart.ipynb)
+
+
 
 There is already the dataset and qml experiments, some guide can be found in doc/sources
 
-# MNISQ-quantum-circuit-dataset
 
 This library provides machine learning datasets as a Qulacs's QuantumCircuit instance.
 
