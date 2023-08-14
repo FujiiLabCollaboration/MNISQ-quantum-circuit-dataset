@@ -50,7 +50,7 @@ Here are the parameters for the URL:
 
 - **data**:
   1. **"train_orig"** (60,000 original encoded training data, QASM files with *Dense()* formalism).
-  2. **"base_train"** (same as above but the QASM files do not include *Dense()* operator, but a gate conversion. Can be run on qiskit and other platforms).
+  2. **"base_train_orig"** (same as above but the QASM files do not include *Dense()* operator, but a gate conversion. Can be run on qiskit and other platforms).
   3. **"train"**: "train_orig" but augmented to 480,000 training data for each subdataset. *Dense()* formalism.
   4. **"test"**: 10,000 test element from original encoding. QASM files with *Dense()* formalism.
   5. **"base_test"**: same as above but the QASM files do not include *Dense()* operator, but a gate conversion. Can be run on qiskit and other platforms.
