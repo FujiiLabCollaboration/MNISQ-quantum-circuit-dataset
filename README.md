@@ -1,4 +1,4 @@
-# MNISQ: A Comprehensive Quantum Circuit Dataset for Quantum Machine Learning in the NISQ Era
+# MNISQ: A Large-Scale Quantum Circuit Dataset for Machine Learning on/for Quantum Computers in the NISQ era
 
 Welcome to MNISQ, a powerful resource designed to propel Quantum Machine Learning forward during the NISQ era. As we undergo the review process, anticipate exciting additions in the near future!
 
