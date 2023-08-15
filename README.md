@@ -1,12 +1,14 @@
 # MNISQ: A Large-Scale Quantum Circuit Dataset for Machine Learning on/for Quantum Computers in the NISQ era
-this repository will be soon completed, we are refining the last details!
+We are in the review process so there will soon be some additions!
 
-===> dataset is already accessible!
+===> datasets are fully accessible!
 
 
-==> we made the dataset executable from qiskit! See [doc/source/notebooks/qiskit_quickstart.ipynb](doc/source/notebooks/qiskit_quickstart.ipynb)
+- 1  we made the dataset executable from qiskit! See [doc/source/notebooks/qiskit_quickstart.ipynb](doc/source/notebooks/qiskit_quickstart.ipynb)
 
-==> if you want to donwload locally the datasets with the normals QASM formalism, use [doc/source/notebooks/download_datasets.py](doc/source/notebooks/download_datasets.py)
+- 2 we made the dataset executable from pennylane! See [doc/source/notebooks/Tutorial_Pennylane.ipynb](doc/source/notebooks/Tutorial_Pennylane.ipynb)
+
+- 3 if you want to donwload locally the datasets with the normals QASM formalism, use [doc/source/notebooks/download_datasets.py](doc/source/notebooks/download_datasets.py)
 
 
 There is already the dataset and qml experiments, some guide can be found in doc/sources
