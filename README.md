@@ -76,7 +76,7 @@ Here are the parameters for the URL:
 
 Example: [https://qulacs-quantum-datasets.s3.us-west-1.amazonaws.com/test_mnist_784_f90.zip](https://qulacs-quantum-datasets.s3.us-west-1.amazonaws.com/test_mnist_784_f90.zip)
 
-# Contributor
+# Contributors
 This project was developed by:
 - Koki Aoyama(@kotamanegi)
 - Hayata Morisaki
@@ -86,3 +86,20 @@ This project was developed by:
 - Ryuichiro Hataya
 - Kosuke Mitarai
 - Keisuke Fujii
+
+## Citation
+
+If you find the MNISQ dataset valuable for your research or work, please consider citing our paper:
+
+```
+@misc{placidi2023mnisq,
+      title={MNISQ: A Large-Scale Quantum Circuit Dataset for Machine Learning on/for Quantum Computers in the NISQ era}, 
+      author={Leonardo Placidi and Ryuichiro Hataya and Toshio Mori and Koki Aoyama and Hayata Morisaki and Kosuke Mitarai and Keisuke Fujii},
+      year={2023},
+      eprint={2306.16627},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph}
+}
+```
+
+Your acknowledgment helps us in further advancing the field of Quantum Machine Learning and fostering a collaborative research community.
