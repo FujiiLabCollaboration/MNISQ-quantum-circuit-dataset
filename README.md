@@ -6,7 +6,7 @@ this repository will be soon completed, we are refining the last details!
 
 ==> we made the dataset executable from qiskit! See [doc/source/notebooks/qiskit_quickstart.ipynb](doc/source/notebooks/qiskit_quickstart.ipynb)
 
-==> if you want to donwload locally the datasets with the normals QASM formalism, use [doc/source/notebooks/download_dataset.py](doc/source/notebooks/download_dataset.py)
+==> if you want to donwload locally the datasets with the normals QASM formalism, use [doc/source/notebooks/download_datasets.py](doc/source/notebooks/download_datasets.py)
 
 
 There is already the dataset and qml experiments, some guide can be found in doc/sources
