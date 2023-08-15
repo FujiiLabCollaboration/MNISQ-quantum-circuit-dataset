@@ -1,17 +1,23 @@
-# MNISQ: A Large-Scale Quantum Circuit Dataset for Machine Learning on/for Quantum Computers in the NISQ era
-We are in the review process so there will soon be some additions!
+# MNISQ: A Comprehensive Quantum Circuit Dataset for Quantum Machine Learning in the NISQ Era
 
-===> datasets are fully accessible!
+Welcome to MNISQ, a powerful resource designed to propel Quantum Machine Learning forward during the NISQ era. As we undergo the review process, anticipate exciting additions in the near future!
 
+## Accessing the Datasets
+Our datasets are now fully accessible, offering a plethora of opportunities for exploration and experimentation.
 
-- 1  we made the dataset executable from qiskit! See [doc/source/notebooks/qiskit_quickstart.ipynb](doc/source/notebooks/qiskit_quickstart.ipynb)
+### Executing with Qiskit
+To leverage the dataset using Qiskit, refer to our comprehensive guide: [Qiskit Quickstart Notebook](doc/source/notebooks/qiskit_quickstart.ipynb).
 
-- 2 we made the dataset executable from pennylane! See [doc/source/notebooks/Tutorial_Pennylane.ipynb](doc/source/notebooks/Tutorial_Pennylane.ipynb)
+### Executing with PennyLane
+For executing the dataset using PennyLane, we've prepared a dedicated guide: [PennyLane Tutorial Notebook](doc/source/notebooks/Tutorial_Pennylane.ipynb).
 
-- 3 if you want to donwload locally the datasets with the normals QASM formalism, use [doc/source/notebooks/download_datasets.py](doc/source/notebooks/download_datasets.py)
+### Local Dataset Download
+Should you prefer working with datasets locally and employing the standard QASM formalism, our guide [Downloading Datasets](doc/source/notebooks/download_datasets.py) will walk you through the process.
 
+## Getting Started
+Embark on your journey with the MNISQ dataset and Quantum Machine Learning experiments. Comprehensive guidance can be found in our documentation: [Documentation](doc/sources)
 
-There is already the dataset and qml experiments, some guide can be found in doc/sources
+Join us in pushing the boundaries of Quantum Machine Learning during the NISQ era! Your exploration starts here.
 
 
 This library provides machine learning datasets as a Qulacs's QuantumCircuit instance.
