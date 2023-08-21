@@ -2,6 +2,9 @@
 
 Welcome to MNISQ, a powerful resource designed to propel Quantum Machine Learning forward during the NISQ era. As we undergo the review process, anticipate exciting additions in the near future!
 
+## NEXT RELEASES
+Tutorials for running the dataset with noise models!
+
 ## Accessing the Datasets
 Our datasets are now fully accessible, offering a plethora of opportunities for exploration and experimentation.
 
