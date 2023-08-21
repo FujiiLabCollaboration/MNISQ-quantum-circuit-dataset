@@ -13,7 +13,6 @@ For executing the dataset using PennyLane, we've prepared a dedicated guide: [Pe
 
 ### Local Dataset Download
 Should you prefer working with datasets locally and employing the standard QASM formalism, our guide [Downloading Datasets](doc/source/notebooks/download_datasets.py) will walk you through the process.
-We found a bug in the fashion and kuzushiji standard qasm files, for now you should use the qulacs QASM files for these two datasets. Check back in a few days whent this comment disappears.
 
 ## Getting Started
 Embark on your journey with the MNISQ dataset and Quantum Machine Learning experiments. Comprehensive guidance can be found in our documentation: [Documentation](doc/sources)
