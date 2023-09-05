@@ -18,7 +18,7 @@ For executing the dataset using PennyLane, we've prepared a dedicated guide: [Pe
 Should you prefer working with datasets locally and employing the standard QASM formalism, our guide [Downloading Datasets](doc/source/notebooks/download_datasets.py) will walk you through the process.
 
 ## Getting Started
-Embark on your journey with the MNISQ dataset and Quantum Machine Learning experiments. Comprehensive guidance can be found in our documentation: [Documentation](doc/sources)
+Embark on your journey with the MNISQ dataset and Quantum Machine Learning experiments.
 
 Join us in pushing the boundaries of Quantum Machine Learning during the NISQ era! Your exploration starts here.
 
